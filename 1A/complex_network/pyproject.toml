@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "complex-network"
+version = "0.1.0"
+description = ""
+authors = ["notkamonohasi <notkamonohasi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+matplotlib = "^3.8.0"
+networkx = "^3.1"
+black = "^23.9.1"
+isort = "^5.12.0"
+mypy = "^1.5.1"
+pandas = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
